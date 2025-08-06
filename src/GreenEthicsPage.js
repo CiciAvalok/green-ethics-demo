@@ -226,7 +226,7 @@ export default function GreenEthicsPage() {
         <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center">
           <img src={happyNeighbourhood} alt="Happy neighbourhood" className="rounded-xl mb-4 w-full object-cover" />
           <h2 className="text-2xl font-semibold mb-2 text-green-800 flex items-center gap-1">Protect the Community <span className="qmark-right text-green-700">?</span></h2>
-          <p className="text-center mb-4">Challenge the AI recommendation, keep the neighbourhood intact, and seek alternative sites or mitigation strategies.</p>
+          <p className="text-center mb-4">Challenge the AI recommendation, keep the neighbourhood intact, and do not build solar facilities.</p>
           <button onClick={() => setShowRight(!showRight)} className="bg-green-600 hover:bg-green-700 text-white font-medium px-4 py-2 rounded-2xl shadow">{showRight ? 'Hide Consequences' : 'View Consequences'}</button>
           <AnimatePresence>{showRight && (<motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} className="mt-6 w-full"><img src={happyCommunity} alt="Community vs job loss" className="rounded-xl mb-3 w-full object-cover" /><p className="text-sm leading-relaxed">Residents thrive and the neighbourhood's heritage is preserved, but you are dismissed for delaying the project, and another consultant is hired to pursue the original plan anyway.</p></motion.div>)}</AnimatePresence>
         </div>
