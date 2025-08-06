@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Interactive ethical dilemma demo for environmental consulting",
   "main": "index.js",
+  "homepage": "https://ciciavalok.github.io/green-ethics-demo",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
